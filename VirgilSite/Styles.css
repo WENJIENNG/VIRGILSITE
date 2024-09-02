@@ -1,8 +1,66 @@
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+/* General styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Profile image styling */
+.profile-img {
+  width: 300px;
+  height: 400px;
+}
+
+.profile-img1 {
+  width: 50px;
+  height: 50px;
+}
+
+/* Header styling */
+header {
+  background-color: #484849;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #484849;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Section heading styling */
+h2 {
+  color: #7c4caf;
+  margin-bottom: 10px;
+}
+
+/* Section content styling */
+section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-top: 5px solid #484849;
+  width: 100%;
+  bottom: 0;
+}
