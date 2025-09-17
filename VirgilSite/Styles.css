@@ -9,6 +9,12 @@ body {
 }
 
 /* Profile image styling */
+.homepage-profile-img {
+  width: 50px;
+  height: 100px;
+  padding-top:100px;
+}
+
 .profile-img {
   width: 300px;
   height: 400px;
@@ -20,6 +26,13 @@ body {
 }
 
 /* Header styling */
+body .ngwenjien header{
+  background-color: #484849;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
 header {
   background-color: #484849;
   color: white;
@@ -50,6 +63,7 @@ section {
 /* Footer styling */
 footer {
   background-color: #333;
+  font-size : 12px;
   color: white;
   text-align: center;
   padding: 10px;
